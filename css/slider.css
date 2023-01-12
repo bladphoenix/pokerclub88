@@ -1,0 +1,188 @@
+body{
+	overflow-x: hidden;
+
+}
+
+#slider{
+	width:418px;
+	top:100px;
+	position:absolute;
+	z-index: 9999;
+}
+#slider_secon{
+	position: absolute;
+top: 100px;
+width: 289px;
+z-index: 999;
+}
+   
+
+#header{ 
+	width:330px;
+	height:520px;
+	position:absolute; 
+	right:0px; 
+	border-bottom:7px solid #eaa941;
+	padding:20px 5px;
+	margin: 91px 0px 0px 20px;
+	background: #03111e; /* Old browsers */
+    background: -moz-linear-gradient(top, #03111e 0%, #031d2e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #03111e 0%,#031d2e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #03111e 0%,#031d2e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03111e', endColorstr='#031d2e',GradientType=0 ); /* IE6-9 */
+}
+#header2{ 
+	background: rgba(255, 255, 255, 0) url('../images/side-menu-bg.jpg')no-repeat scroll center top/ cover;
+height: 410px;
+left: -5px;
+margin: 86px 0 0;
+padding: 0;
+position: absolute;
+width: 240px;
+-webkit-box-shadow: 10px 10px 6px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 6px -7px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 6px -7px rgba(0,0,0,0.75);
+}
+
+
+#sidebar{
+	position:absolute;
+	top:180px;
+	left:8px;
+	cursor: pointer;
+	box-shadow: 0 0 8px gray;
+}
+
+#sidebar1{
+	position:absolute;
+	top:180px;
+	left:8px;
+	box-shadow: 0 0 8px gray;
+}
+#sidebar2{
+	position:absolute;
+	top:180px;
+	right:8px;
+	box-shadow: 0 0 8px gray;
+	z-index:999;
+}
+
+#sidebar_second{
+	cursor: pointer;
+position: absolute;
+right: -25px;
+top: 146px;
+}
+
+
+.support24{
+	width:303px;
+	margin: auto;
+}
+.support24 h2{
+	text-align: center;
+	color:#eaa941; 
+}
+.support24 .inner ul{
+   color: #fff;
+
+}
+.support24 .inner  li{
+	float: left;
+	color: #fff !important;
+	border-bottom: 1px solid  #eaa941;
+	list-style: none;
+	padding: 10px 0px;
+	width: 240px;
+	
+
+}
+
+.support24 .inner img{
+	float: left;
+
+}
+
+.support24 .inner img:hover{
+	opacity: 0.6;
+
+}
+.support24 .inner li span{
+   padding: 6px 0px 5px 24px;
+   display: inline-block;
+   font-size:16px; 
+}
+.support24 .inner a{
+	padding: 0px;
+	color: #fff !important;
+}
+.support24 .inner a:hover{
+	color: #d09a44;
+}
+
+
+/*--------------------------------------
+		Advertisement div
+----------------------------------------*/
+.formget{
+	width:300px;
+	margin-top: 65px;
+	margin-left: 57px;
+	float: left;
+	}
+
+
+.topback{
+	width: auto;
+	padding:5px;
+	text-align: center;
+}
+.topback h2{
+	color:#000;
+	margin: 0px;
+	font-size: 24px;
+}
+.bca_1{
+	width: auto;
+	margin: auto;
+	background: #1b1b1b;
+}
+.bca_1 .bciner{
+	width: auto;
+	margin:0px; 
+	
+}
+
+.bca_1 .bciner .bcone_r{
+	width: auto;
+	margin:0px 10px;
+	padding: 10px 10px;
+	border-bottom: 1px solid #736f6f;
+}
+/*.bca_1 .bciner .bcone_r img:hover{
+	opacity: 0.6;
+}*/
+
+.Lorem_rw{
+	width: auto;
+	margin: auto;
+	background: #000;
+}
+.Lorem_rw .loremone{
+	padding: 0px;
+	border-bottom: 1px solid #acacac;
+	font-size: 16px;
+	font-weight: 650;
+}
+.Lorem_rw  span{
+	font-size: 25px;
+	color: #e7e5d0;
+	padding: 10px;
+}
+.Lorem_rw  span:hover{
+	color: #fff;
+}
+
+/*end*/
+
+
